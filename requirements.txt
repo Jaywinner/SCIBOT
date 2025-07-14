@@ -1,0 +1,9 @@
+Flask
+flask_sqlalchemy
+flask_login
+PyPDF2
+pytesseract
+Pillow
+google-generativeai
+markdown2
+pdf2image
