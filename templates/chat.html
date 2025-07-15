@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="chat-box">
+    <h2 class="text-center mb-4">Ask the Assistant</h2>
+
+    <!-- Scrollable Chat History -->
+    {% if chat_history %}
+    <div class="border rounded p-3 mb-4 bg-white shadow-sm" style="max-height: 300px; overflow-y: auto;">
+        <h6 class="fw-bold mb-3">Previous Chat</h6>
+        {{ chat_history | safe }}
+    </div>
+    {% endif %}
+
+    <form method="post" id="chat-form">
+        <div class="mb-4">
+            <label class="form-label fw-semibold">Select Document(s)</label>
+            <select class="form-select shadow-sm" name="selected_files" multiple size="5">
+                {% for q in questions %}
+                    <option value="{{ q.filename }}">{{ q.course }} - {{ q.filename }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="mb-4">
+            <label class="form-label fw-semibold">Your Question</label>
+            <input type="text" name="question" class="form-control shadow-sm" placeholder="Ask anything based on the selected document(s)..." required>
+        </div>
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" name="use_ocr" id="use_ocr">
+            <label class="form-check-label" for="use_ocr">
+                Use OCR if PDF text can't be extracted
+            </label>
+        </div>
+        <div class="text-end">
+            <button type="submit" class="btn btn-dark px-4" id="ask-btn">Ask</button>
+        </div>
+    </form>
+
+    <!-- Loading animation -->
+    <div id="loading-animation" class="text-center mt-4" style="display:none;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-2">Analyzing document and generating answer...</p>
+    </div>
+
+    {% if answer %}
+        <div class="answer-box mt-5" id="answer-box">
+            <h5 class="mb-3">Response</h5>
+            <div class="border rounded p-3 bg-light text-dark" style="white-space: pre-wrap;">
+                {{ answer|safe }}
+            </div>
+        </div>
+    {% endif %}
+
+    <div class="mt-5 text-center">
+        <a href="{{ url_for('index') }}" class="text-decoration-none text-muted">← Back to Home</a>
+    </div>
+</div>
+
+<script>
+    const form = document.getElementById("chat-form");
+    const loading = document.getElementById("loading-animation");
+    const askBtn = document.getElementById("ask-btn");
+
+    form.addEventListener("submit", function() {
+        loading.style.display = "block";
+        askBtn.disabled = true;
+    });
+</script>
+{% endblock %}
