@@ -95,7 +95,7 @@ http://your-server-ip:5000
 | Feature | Description |
 |--------|-------------|
 |  AI Chat | Chatbot interface to ask questions based on documents |
-|  File Upload | Upload past questions, PDFs, or .txt for context |
+|  File Upload | You can Upload past questions, PDFs, or .txt for context |
 |  OCR Support | Extracts text from image-based scanned files |
 |  Tailored for Science | Ideal for Physics, Chemistry, Biology, Math, etc |
 |  User Auth | Login/register system for personalized experience |
