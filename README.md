@@ -14,7 +14,7 @@
 
 ---
 
-## 🔎 Introduction
+## Introduction
 
 **SciBot** is a lightweight web-based AI chatbot designed to assist **university science students** in understanding complex academic materials using natural language. Built with Flask, Google Gemini API, and OCR tools, the app enables students to:
 - Ask questions from uploaded past questions, PDFs, or notes.
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔑 Setting Up Your Gemini API Key
+## Setting Up Your Gemini API Key
 
 This app uses Google's Gemini (Generative AI) to process documents and chat.
 
