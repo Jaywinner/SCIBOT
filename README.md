@@ -66,7 +66,7 @@ genai.configure(api_key="your_gemini_api_key_here")
 
 ---
 
-## ▶️ Usage [Usage]
+## Usage
 
 Once installed and configured, run the app using:
 
@@ -90,30 +90,26 @@ http://your-server-ip:5000
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |--------|-------------|
-| 🧠 AI Chat | Chatbot interface to ask questions based on documents |
-| 📄 File Upload | Upload past questions, PDFs, or .txt for context |
-| 🖼️ OCR Support | Extracts text from image-based scanned files |
-| 🧬 Tailored for Science | Ideal for Physics, Chemistry, Biology, Math, etc |
-| 🔒 User Auth | Login/register system for personalized experience |
-| 💬 Saved Context | Maintains document context during chat sessions |
+|  AI Chat | Chatbot interface to ask questions based on documents |
+|  File Upload | Upload past questions, PDFs, or .txt for context |
+|  OCR Support | Extracts text from image-based scanned files |
+|  Tailored for Science | Ideal for Physics, Chemistry, Biology, Math, etc |
+|  User Auth | Login/register system for personalized experience |
+|  Saved Context | Maintains document context during chat sessions |
 
 
-## 📸 Screenshots
-
-> _📥 Add screenshots here_  
-(Example placeholders below)
-
+## Screenshots
 
 <img width="1366" height="685" alt="student chatbot demo interface" src="https://github.com/user-attachments/assets/697a4d89-6baa-4073-a537-2759fc7c988c" />
 <img width="706" height="619" alt="Upload page" src="https://github.com/user-attachments/assets/ffbb5f25-c103-4077-93e9-41d2ad1cb9c0" />
 <img width="733" height="567" alt="chat page" src="https://github.com/user-attachments/assets/acfc5fae-9dda-4ca5-9e5f-a6fccffc6b50" />
 
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 | Issue | Fix |
 |-------|-----|
@@ -124,7 +120,7 @@ http://your-server-ip:5000
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions!
 
@@ -152,6 +148,6 @@ See the `LICENSE` file for details.
 
 If you found this project useful and want to support:
 
-**Account Number**: 0150299261  
-**Bank**: Union Bank  
+**Account Number**: 6834826017  
+**Bank**: FCMB  
 **Name**: Joseph Amodu (Jaywinner)
