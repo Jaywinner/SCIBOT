@@ -26,9 +26,9 @@ This guide helps you deploy it locally or on a server.
 
 ---
 
-## ⚙️ Installation
+## Installation
 
-> 💡 Requires **Python 3.10+** and **pip**
+> 💡 Requires Python 3.10+ and pip
 
 1. **Clone the repository**  
 ```bash
