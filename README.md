@@ -101,7 +101,6 @@ http://your-server-ip:5000
 | 🔒 User Auth | Login/register system for personalized experience |
 | 💬 Saved Context | Maintains document context during chat sessions |
 
----
 
 ## 📸 Screenshots
 
@@ -109,13 +108,10 @@ http://your-server-ip:5000
 (Example placeholders below)
 
 
-```
 <img width="1366" height="685" alt="student chatbot demo interface" src="https://github.com/user-attachments/assets/697a4d89-6baa-4073-a537-2759fc7c988c" />
 <img width="706" height="619" alt="Upload page" src="https://github.com/user-attachments/assets/ffbb5f25-c103-4077-93e9-41d2ad1cb9c0" />
 <img width="733" height="567" alt="chat page" src="https://github.com/user-attachments/assets/acfc5fae-9dda-4ca5-9e5f-a6fccffc6b50" />
-```
 
----
 
 ## 🛠️ Troubleshooting
 
