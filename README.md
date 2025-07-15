@@ -108,10 +108,11 @@ http://your-server-ip:5000
 > _📥 Add screenshots here_  
 (Example placeholders below)
 
+
 ```
-/screenshots/homepage.png  
-/screenshots/chat-session.png  
-/screenshots/upload.png
+<img width="1366" height="685" alt="student chatbot demo interface" src="https://github.com/user-attachments/assets/697a4d89-6baa-4073-a537-2759fc7c988c" />
+<img width="706" height="619" alt="Upload page" src="https://github.com/user-attachments/assets/ffbb5f25-c103-4077-93e9-41d2ad1cb9c0" />
+<img width="733" height="567" alt="chat page" src="https://github.com/user-attachments/assets/acfc5fae-9dda-4ca5-9e5f-a6fccffc6b50" />
 ```
 
 ---
