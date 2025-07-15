@@ -116,22 +116,14 @@ Register to be able to upload past question
 Select Past question to ask the AI assistant about
 <img width="733" height="567" alt="chat page" src="https://github.com/user-attachments/assets/acfc5fae-9dda-4ca5-9e5f-a6fccffc6b50" />
 
-
-
-
-
-
-
-
-
 Sample question without the OCR feature 
-<img width="708" height="553" alt="response without ocr" src="https://github.com/user-attachments/assets/c3af5e33-ad0a-4763-9e92-8c296ddbc7b0" />
+<img width="733" height="567" alt="response without ocr" src="https://github.com/user-attachments/assets/c3af5e33-ad0a-4763-9e92-8c296ddbc7b0" />
 
 Sample question with the OCR feature
-<img width="707" height="645" alt="confirmed answer with ocr" src="https://github.com/user-attachments/assets/55857922-e6a2-436a-a6ef-f291992c3eb6" />
+<img width="733" height="567" alt="confirmed answer with ocr" src="https://github.com/user-attachments/assets/55857922-e6a2-436a-a6ef-f291992c3eb6" />
 
 See previous chats
-<img width="706" height="410" alt="previous chats" src="https://github.com/user-attachments/assets/3ab11666-fae8-4afa-b45d-ee50ff0d3418" />
+<img width="733" height="567" alt="previous chats" src="https://github.com/user-attachments/assets/3ab11666-fae8-4afa-b45d-ee50ff0d3418" />
 
 
 
