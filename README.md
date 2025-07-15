@@ -1,6 +1,6 @@
-# 🧠 SciBot: AI Chatbot for Science Students
+# SciBot: AI Chatbot for Science Students
 
-## 📚 Table of Contents
+## Table of Contents
 - [Introduction](#introduction)  
 - [Installation](#installation)  
 - [Setting Up Your Gemini API Key](#setting-up-your-gemini-api-key)  
