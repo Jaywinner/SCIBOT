@@ -150,7 +150,7 @@ def chat():
 
         memory.context_text += f"\n\nUser: {user_input}\n"
 
-        genai.configure(api_key="AIzaSyB13dWQeZQdBWgQW0BKcutKgJdyOJ9ZHnk")
+        genai.configure(api_key="") #INSERT your API KEY HERE
         model = genai.GenerativeModel("gemini-2.0-flash-exp")
 
         try:
