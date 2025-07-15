@@ -57,14 +57,15 @@ This app uses Google's Gemini (Generative AI) to process documents and chat.
 1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey)  
 2. Copy your API key  
 3. Open `app.py` and **replace** the placeholder line with your key:
-   <img width="500" height="63" alt="INSERT API KEY" src="https://github.com/user-attachments/assets/1967090b-7650-4dee-9100-0c33e8e89e74" />
-
 
 ```python
 genai.configure(api_key="your_gemini_api_key_here")
 ```
 
 4. Save the file.
+
+
+ <img width="500" height="63" alt="INSERT API KEY" src="https://github.com/user-attachments/assets/1967090b-7650-4dee-9100-0c33e8e89e74" />
 
 ---
 
