@@ -114,10 +114,11 @@ Register to be able to upload past question
 <img width="706" height="619" alt="Upload page" src="https://github.com/user-attachments/assets/ffbb5f25-c103-4077-93e9-41d2ad1cb9c0" />
 
 Select Past question to ask the AI assistant about
-<img width="733" height="567" alt="chat page" src="https://github.com/user-attachments/assets/acfc5fae-9dda-4ca5-9e5f-a6fccffc6b50" />
+<img width="741" height="562" alt="asking the ai" src="https://github.com/user-attachments/assets/5a148de4-2095-4ecc-9331-d6d19733a8f8" />
+
 
 Sample question with the OCR feature
-<img width="733" height="567" alt="confirmed answer with ocr" src="https://github.com/user-attachments/assets/55857922-e6a2-436a-a6ef-f291992c3eb6" />
+<img width="706" height="619" alt="confirmed answer with ocr" src="https://github.com/user-attachments/assets/55857922-e6a2-436a-a6ef-f291992c3eb6" />
 
 
 
